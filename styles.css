@@ -1,0 +1,60 @@
+* {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.add-btn,
+.empty-btn {
+  background-color: #27cc2c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.empty-btn {
+  background-color: #d30a0a;
+}
+
+.tankwrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tank {
+  width: 150px;
+  height: 300px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.water {
+  width: 150px;
+  height: 0px;
+  background-color: rgb(27, 63, 143);
+  border-radius: 10px;
+}
+
+.tank-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buffer {
+  margin: auto;
+  width: 300px;
+  height: 150px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 50px;
+}
